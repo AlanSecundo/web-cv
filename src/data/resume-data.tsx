@@ -78,6 +78,7 @@ export const RESUME_DATA = {
     {
       company: "Freelance Developer",
       badges: ["Remote"],
+      link: "",
       title: "Front-end Developer",
       start: "2021",
       end: "2021",
