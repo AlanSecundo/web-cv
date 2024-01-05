@@ -20,259 +20,215 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Alan Secundo",
+  initials: "AS",
+  location: "Maringá, PR, Brazil",
+  locationLink: "https://maps.app.goo.gl/fHa4M36Nmo3rok8c6",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "I specialize in front-end development as a Full Stack Engineer, crafting solutions that ensure smooth and user-friendly experiences.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a software engineer, I've worked with different technologies and projects. In some of them, I had the opportunity to lead small front-end teams, contribute to technical decisions, and support fellow developers. I also served as a teacher at a university in Brazil for two years (not stopping my work as a developer during this time), instructing topics in mobile development and other subjects. In my current role, I'm deeply involved in projects utilizing React.js, Angular, TypeScript, and Java. I have 7 years of experience, including 4 years in remote and hybrid settings.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/28219512?v=4",
+  personalWebsiteUrl: "https://alansecundo.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "alan_secundo@hotmail.com",
+    tel: "+5544999576173",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/AlanSecundo",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/alansecundo/?locale=en_US",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Unicesumar University Center",
+      degree: "Bachelor's Degree in Software Engineer",
+      start: "2015",
+      end: "2018",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+      company: "DB1 Global Software",
+      link: "https://www.db1.com.br/",
+      badges: ["Remote", "Hybrid"],
+      title: "Senior Front-end Developer",
       start: "2021",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Collaborating on different projects within sectors like banks, government systems, and water company platforms, maintaining a primary emphasis on front-end work and actively supporting backend tasks. Technologies: React, React Native, TypeScript, Node, Java, Vue, Angular, PHP, Java",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Unicesumar",
+      link: "https://www.unicesumar.edu.br/english/",
+      badges: ["In-office"],
+      title: "Software Engineer Teacher",
+      start: "2021",
+      end: "2023",
+      description:
+        "As a teacher, I helped more than 200 students in subjects related to mobile device programming, entrepreneurship and also leading groups of students in their course completion projects. Technologies: React Native",
+    },
+    {
+      company: "Freelance Developer",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      title: "Front-end Developer",
+      start: "2021",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "As a freelance developer, I helped small companies build new websites and marketplaces for their businesses. Technologies: React, TypeScript, Elementor, WordPress.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      company: "Software By Maringá",
+      link: "https://www.softwarebymaringa.com.br/",
+      badges: ["Remote", "Volunteer"],
+      title: "Assistant Event Organizer",
+      start: "2021",
+      end: "2021",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Helping to organize the on of the largest Tech events in Maringá, I was responsible for the contact of speakers and leading a small team during the event's schedule that was responsible for take care of the speakers. Habilities: Communication, Teamwork, Leadership",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "DB1 Global Software",
+      link: "https://www.db1.com.br/",
+      badges: ["Hybrid"],
+      title: "Junior Full-Stack Developer",
+      start: "2019",
+      end: "2020",
+      description:
+        "Collaborating in an Innovation squad, I work on both the Front-end and Back-end of a marketplace project to address clients' questions about products across various platforms. Technologies: React, TypeScript, Java, AWS",
+    },
+    {
+      company: "Accellog ",
+      link: "https://accellog.com/",
+      badges: ["Hybrid"],
+      title: "Junior Front-end Developer",
+      start: "2017",
+      end: "2019",
+      description:
+        "Starting my career as a Front-end Developer, I help build front-end and mobile projects from 0 to 1 while communicating directly with clients. Technologies: Vue.JS, Quasar, Cordova, Javascript, HTML, CSS",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React",
+    "React Native",
+    "Vue.JS",
+    "Angular",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Java",
+    "Jest",
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "My BRK - Water Company Services",
       techStack: [
         "Full Stack Developer",
         "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Angular",
+        "JAVA",
+        "Oracle",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
+        "Application aimed at users of a water treatment company that provides access to related services related to water connection, such as bill payment, water cutoff, request for a new water connection, etc.",
     },
     {
-      title: "Evercast",
+      title: "Predize",
       techStack: [
+        "Full Stack Developer",
+        "React",
+        "TypeScript",
+        "JAVA",
+        "AWS",
+        "Docker",
+      ],
+      description:
+        "Tool that assists customer service collaborators in retail stores in quickly and centrally responding to customer questions on different marketplaces within a single software.",
+      logo: MonitoLogo,
+    },
+    {
+      title: "AL5 Bank web",
+      techStack: [
+        "Full Stack Developer",
+        "React",
+        "Jest",
+        "React Testing Library",
+        "Node.JS",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "Azure Devops",
+      ],
+      description:
+        "Web application focused on businesses where customers could perform operations such as batch payment of bank transfers, transfers, balance inquiries, statement inquiries, etc.",
+      logo: JarockiMeLogo,
+    },
+    {
+      title: "AL5 Bank Mobile",
+      techStack: [
+        "Full Stack Developer",
+        "React Native",
+        "Jest",
+        "React Testing Library",
+        "Node.JS",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "Azure Devops",
+      ],
+      description:
+        "Banking application for Android and iOS where customers could perform routine operations such as monetary transactions, investments, check statements, etc.",
+      logo: Minimal,
+    },
+    {
+      title: "AL5 Bank Backoffice",
+      techStack: ["React", "Angular", "TypeScript", "Ant Design"],
+      description:
+        "Backoffice application that allowed bank employees to manage users, create marketing campaigns for the app, manage mobile recharges, etc.",
+      logo: BarepapersLogo,
+    },
+    {
+      title: "Alagoas Payment System",
+      techStack: [
+        "Vue.js",
+        "TypeScript",
+        "Pinia",
+        "Vite",
+        "Vitest",
+        "PHP",
+        "Github Pipelines",
+      ],
+      description:
+        "Application created from scratch to comply with Brazilian legislation for monthly payroll payment of public employees, with the goal of managing routines through the system that assisted in the bureaucratic payment process.",
+      logo: YearProgressLogo,
+    },
+    {
+      title: "Houses for rent",
+      techStack: [
+        "Freelance",
         "Lead Frontend Developer",
-
         "TypeScript",
         "React",
-        "Node.js",
-        "GraphQL",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Under-construction application that facilitates the rental of houses in Orlando, USA.",
       logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Multicargo",
+      techStack: ["Vue.js", "Quasar", "Cordova"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        "Software that helped truck drivers find loads for transportation throughout Brazil.",
+      logo: ConsultlyLogo,
     },
   ],
 } as const;
