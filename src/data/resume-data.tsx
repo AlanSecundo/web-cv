@@ -139,6 +139,10 @@ export const RESUME_DATA = {
       ],
       description:
         "Application aimed at users of a water treatment company that provides access to related services related to water connection, such as bill payment, water cutoff, request for a new water connection, etc.",
+      link: {
+        label: "",
+        href: "",
+      },
     },
     {
       title: "Predize",
@@ -153,6 +157,10 @@ export const RESUME_DATA = {
       description:
         "Tool that assists customer service collaborators in retail stores in quickly and centrally responding to customer questions on different marketplaces within a single software.",
       logo: MonitoLogo,
+      link: {
+        label: "",
+        href: "",
+      },
     },
     {
       title: "AL5 Bank web",
@@ -171,6 +179,10 @@ export const RESUME_DATA = {
       description:
         "Web application focused on businesses where customers could perform operations such as batch payment of bank transfers, transfers, balance inquiries, statement inquiries, etc.",
       logo: JarockiMeLogo,
+      link: {
+        label: "",
+        href: "",
+      },
     },
     {
       title: "AL5 Bank Mobile",
@@ -189,6 +201,10 @@ export const RESUME_DATA = {
       description:
         "Banking application for Android and iOS where customers could perform routine operations such as monetary transactions, investments, check statements, etc.",
       logo: Minimal,
+      link: {
+        label: "",
+        href: "",
+      },
     },
     {
       title: "AL5 Bank Backoffice",
@@ -196,6 +212,10 @@ export const RESUME_DATA = {
       description:
         "Backoffice application that allowed bank employees to manage users, create marketing campaigns for the app, manage mobile recharges, etc.",
       logo: BarepapersLogo,
+      link: {
+        label: "",
+        href: "",
+      },
     },
     {
       title: "Alagoas Payment System",
@@ -211,6 +231,10 @@ export const RESUME_DATA = {
       description:
         "Application created from scratch to comply with Brazilian legislation for monthly payroll payment of public employees, with the goal of managing routines through the system that assisted in the bureaucratic payment process.",
       logo: YearProgressLogo,
+      link: {
+        label: "",
+        href: "",
+      },
     },
     {
       title: "Houses for rent",
@@ -223,6 +247,10 @@ export const RESUME_DATA = {
       description:
         "Under-construction application that facilitates the rental of houses in Orlando, USA.",
       logo: EvercastLogo,
+      link: {
+        label: "",
+        href: "",
+      },
     },
     {
       title: "Multicargo",
@@ -230,6 +258,10 @@ export const RESUME_DATA = {
       description:
         "Software that helped truck drivers find loads for transportation throughout Brazil.",
       logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "",
+      },
     },
   ],
 } as const;
